@@ -47,4 +47,16 @@ public class GifRepository {
         return gifs;
     }
 
+    public List<Gif> findFavorites() {
+        List<Gif> favGifs = new ArrayList<>();
+
+        for(Gif gif : ALL_GIFS) {
+            if(gif.isFavorite()) {
+                favGifs.add(gif);
+            }
+        }
+
+        return favGifs;
+    }
+
 }
