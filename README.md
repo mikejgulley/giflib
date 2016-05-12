@@ -1,2 +1,2 @@
 # giflib
-project made during Treehouse's Spring Basisc course.
+project made during Treehouse's Spring Basics course.
